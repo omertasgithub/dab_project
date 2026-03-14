@@ -52,7 +52,8 @@ targets:
       host: https://adb-7405606627261896.16.azuredatabricks.net/ # replace with your Workspace URL
       root_path: /Workspace/Shared/.bundle/${bundle.name}/${bundle.target}
     permissions:
-      - service_principal_name: 0411dbdb-cd8f-48e7-93bb-67991aecf2ac # update with your service principal name
+      - service_principal_name: ba974d8c-3a93-4798-8b6b-2e1bfa05636c
         level: CAN_MANAGE
+
     run_as:
-      service_principal_name: 0411dbdb-cd8f-48e7-93bb-67991aecf2ac # update with your service principal name
+      service_principal_name: ba974d8c-3a93-4798-8b6b-2e1bfa05636c
