@@ -1,8 +1,8 @@
 from setuptools import setup, find_packages
-#1
+#12
 setup(
     name="dab_project",
-    version="0.0.1",
+    version="0.0.2",
     description="This contains the code in the ./src directory of the project",
     author="Your Name",
     packages=find_packages(where="./src"),
